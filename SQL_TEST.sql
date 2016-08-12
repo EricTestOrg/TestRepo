@@ -12,7 +12,7 @@ SELECT algn.LOWST_LVL_ALGNMNT_NM,
   and algn.BSNS_DT_PRPS_CD = 'SALES_DATA_MONTH'
   
   and prod.THCL_PROD_NM = 'MHRT'
-  
+  and baljh
   
   and sales.SLV_CD = '-1'
   group by 1,3
